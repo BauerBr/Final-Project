@@ -1,0 +1,53 @@
+form  { display: table;      }
+label { display: table-cell; }
+input { display: table-cell; }
+body { color: white;
+	   background: #1c1d32;	}
+legend{ color: white; }
+
+
+input[type="submit"] {
+    color: #FFA500;
+	background:#1c1d32;
+}
+
+input, select, textarea{
+    color: #FFA500;
+	font-weight: bold;
+	
+}
+
+
+
+.container1 { position:relative; padding:0 0 0 55px; }
+#sidebar {
+    position:absolute;
+    top:0; bottom:0; left:0;
+    width:50px;
+    background:##1c1d32;
+}
+#content { border:0px solid #000; width:800px; height:50px;
+    margin:5px 0 5px 0;
+	background: #1c1d32;
+}
+#box{
+position: absolute;
+top: 100px;
+right: -50px;
+color: #FFA500;
+}
+#login{
+position: absolute;
+top: 0px;
+right: -200px;
+color: #FFA500;
+font-weight: bold;
+}
+
+#logout{
+position: absolute;
+top: 30px;
+right: -200px;
+color: #FFA500;
+font-weight: bold;
+}
